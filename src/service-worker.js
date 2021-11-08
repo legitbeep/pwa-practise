@@ -69,18 +69,15 @@ registerRoute(
 );
 
 registerRoute(
-  ({ event }) => {
-    console.log(event.request.destination == "image");
-    return event.request.destination === "image";
+  ({ url }) => {
+    console.log(
+      url.origin == "https://avatars.githubusercontent.com",
+      url.origin
+    );
+    return url.origin === "https://avatars.githubusercontent.com";
   },
   new CacheFirst({
     cacheName: "avatars",
-    plugins: [
-      new ExpirationPlugin({
-        maxEntries: 50,
-        maxAgeSeconds: 7 * 24 * 60 * 60,
-      }),
-    ],
   })
 );
 
