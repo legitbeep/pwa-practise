@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pwa-practise/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/pwa-practise/static/js/main.a86cde89.chunk.js",
+    "main.js.map": "/pwa-practise/static/js/main.a86cde89.chunk.js.map",
+    "runtime-main.js": "/pwa-practise/static/js/runtime-main.21235128.js",
+    "runtime-main.js.map": "/pwa-practise/static/js/runtime-main.21235128.js.map",
+    "static/js/2.bfbe549a.chunk.js": "/pwa-practise/static/js/2.bfbe549a.chunk.js",
+    "static/js/2.bfbe549a.chunk.js.map": "/pwa-practise/static/js/2.bfbe549a.chunk.js.map",
+    "static/js/3.01d11329.chunk.js": "/pwa-practise/static/js/3.01d11329.chunk.js",
+    "static/js/3.01d11329.chunk.js.map": "/pwa-practise/static/js/3.01d11329.chunk.js.map",
+    "index.html": "/pwa-practise/index.html",
+    "service-worker.js": "/pwa-practise/service-worker.js",
+    "service-worker.js.map": "/pwa-practise/service-worker.js.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/pwa-practise/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.bfbe549a.chunk.js.LICENSE.txt": "/pwa-practise/static/js/2.bfbe549a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21235128.js",
+    "static/js/2.bfbe549a.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a86cde89.chunk.js"
+  ]
+}
