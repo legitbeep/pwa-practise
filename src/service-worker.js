@@ -22,7 +22,7 @@ clientsClaim();
 precacheAndRoute(self.__WB_MANIFEST);
 
 const routes = [
-  { url: "/service-worker.js", revision: null },
+  { url: "/service-worker.js", revision: 1000 },
   { url: "/manifest.json", revision: null },
 ];
 precacheAndRoute(routes);
